@@ -102,7 +102,7 @@ public static boolean istValide(a, b, c, d) {
  }
 
 
-private double berechneSteigung(Punkt p1, Punkt p2){
+private double berechneSteigung(Punkt p1, Punkt p2){ // errechnet die Steigung einer Gerade des Vierecks anhand der 2 beteiligten Eckpunkte
 private double xP = p2.x - p1.x;
 private double yP = p2.y - p1.y;
 return yP / xP;
