@@ -48,11 +48,11 @@ protected void berechne_delta () { // berechnet den Winkel delta der an Punkt d 
 
 protected void berechneFlaeche() {
 	if (alpha <= 90 && gamma <= 90){
-private double flaeche = (distanz(a, d) + distanz(b, c)) / 2 * hoehe // Formel: Parallele Seiten addieren die Summe durch 2 rechnen und mal die Hoehe rechnen
+private double flaeche = (distanz(a, d) + distanz(b, c)) / 2 * hoehe; // Formel für die Fläche: Parallele Seiten addieren, die Summe durch 2 rechnen und mal die Hoehe rechnen
 
     }
 else{
-private double flaeche = (distanz(a, b) + distanz(c, d)) / 2 * hoehe
+private double flaeche = (distanz(a, b) + distanz(c, d)) / 2 * hoehe;
 
 }
 
